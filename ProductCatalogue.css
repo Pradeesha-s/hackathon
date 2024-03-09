@@ -1,0 +1,15 @@
+/* ProductCatalogue.css */
+
+.product-image {
+    height: 400px; /* Set a maximum height for the product images */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+  
+  .card {
+    transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+  }
+  
